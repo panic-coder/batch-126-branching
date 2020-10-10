@@ -21,3 +21,5 @@ function getWorkHrs() {
 empCheck=$((RANDOM%3))
 dailyWages=$(($empHrs*$EMP_RATE_PER_HR))
 
+echo $dailywages
+
